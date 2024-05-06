@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6630cd276282821dece4fcd6"
+  },
+  "components": {
+    "ProductList": {
+      "style": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(1, 1fr)",
+        "gridGap": "4px",
+        "padding": "10px",
+        "backgroundColor": "white",
+        "color": "black",
+        "height": "100vh"
+      }
+    },
+    "ProductCard": {
+      "style": {
+        "padding": "4px",
+        "borderRadius": "0.4rem",
+        "margin": "1px",
+        "backgroundColor": "white",
+        "color": "black"
+      }
+    },
+    "ProductsListHeader": {
+      "style": {
+        "backgroundColor": "#8888",
+        "color": "black"
+      },
+      "grid": {
+        "cols": 3,
+        "layout": [
+          {
+            "w": 1,
+            "h": 1,
+            "x": 0,
+            "y": 0,
+            "i": "1",
+            "moved": false,
+            "static": false
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "x": 2,
+            "y": 0,
+            "i": "2",
+            "moved": false,
+            "static": false
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "x": 1,
+            "y": 0,
+            "i": "3",
+            "moved": false,
+            "static": false
+          }
+        ]
+      }
+    }
+  }
+}]
